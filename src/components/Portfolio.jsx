@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import weallison from "../assets/portfolio/weallison.png";
 import welcomeHomeBot from "../assets/portfolio/welcome-home-bot.png";
+import oneAgainstManyGame from "../assets/portfolio/one-against-many-v1.png";
+import appleFitnessVisualizer from "../assets/portfolio/apple-fitness-health-app.png";
+import companyResourceManager from "../assets/portfolio/company-resource-manager.png";
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 0,
+      src: companyResourceManager,
+      demoUrl: "https://youtu.be/1WnaHJ6sk_o",
+      codeUrl: "https://github.com/jaysaavedra18/ticketing-system.git",
+    },
     {
       id: 1,
       src: weallison,
@@ -16,7 +25,21 @@ const Portfolio = () => {
       demoUrl: "https://youtu.be/mMnXhzSfBOw",
       codeUrl: "https://github.com/jaysaavedra18/welcome-home-bot.git",
     },
+    {
+      id: 3,
+      src: oneAgainstManyGame,
+      demoUrl: "https://youtu.be/zizhISHXV8U",
+      codeUrl: "https://github.com/jaysaavedra18/one-against-many-game.git",
+    },
+    {
+      id: 4,
+      src: appleFitnessVisualizer,
+      demoUrl: "https://youtu.be/-0MqhtroNj0",
+      codeUrl: "https://github.com/jaysaavedra18/apple-fitness-health-app.git",
+    },
   ];
+
+  const [showMessage, setShowMessage] = useState(false);
 
   return (
     <div
