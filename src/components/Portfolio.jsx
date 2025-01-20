@@ -1,14 +1,20 @@
 import React from "react";
 import weallison from "../assets/portfolio/weallison.png";
+import welcomeHomeBot from "../assets/portfolio/welcome-home-bot.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: weallison,
-      demoUrl:
-        "https://s3.us-east-2.amazonaws.com/www.weallison.com/videos/Final+Demo.mp4",
+      demoUrl: "https://youtu.be/G_-fxXlKnzk",
       codeUrl: "https://github.com/jaysaavedra18/music-sharing-app",
+    },
+    {
+      id: 2,
+      src: welcomeHomeBot,
+      demoUrl: "https://youtu.be/mMnXhzSfBOw",
+      codeUrl: "https://github.com/jaysaavedra18/welcome-home-bot.git",
     },
   ];
 
@@ -26,7 +32,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demoUrl, codeUrl }) => (
+          {portfolios.reverse().map(({ id, src, demoUrl, codeUrl }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
