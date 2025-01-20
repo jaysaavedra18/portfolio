@@ -23,20 +23,21 @@ const About = () => {
         </p>
         <br />
         <p className="text-xl">
-          For the past two years, I worked as an IT Service Representative at
-          Purdue in West Lafayette, IN. Here, I developed and maintained Python
-          scripts to automate tasks and collaborated with the development team
+          For the past two years, I worked in IT Support at ECN (the Engineering
+          Computer Network). It was here, I developed and maintained Python
+          scripts to automate tasks and collaborated with the engineering team
           to enhance and debug tools using Git for version control. Got an idea
-          of how the development workflow works and got to focus on the client
-          facing side of our company. Using PowerShell, our personal domain
-          managing tool, and problem-solving skills we were able to resolve
-          network issues, software requests and updates, hardware failures,
-          amongst other things.
+          of how the software development workflow works and got to focus on the
+          client facing side of our company. Using PowerShell, our personal
+          domain managing tool, and problem-solving skills we were able to
+          resolve network issues, software requests and updates, hardware
+          failures, amongst other things.
         </p>
         <br />
         <p className="text-xl">
-          Now I seek to make meaningful contributions with my skills in Software
-          Development.
+          Now I seek to make meaningful contributions with my skills as Software
+          Engineer. I urge you to check out my portfolio where my passion and
+          eye for detail will shine through.
         </p>
       </div>
     </div>

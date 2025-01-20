@@ -12,11 +12,11 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="text-white flex flex-col justify-center h-full mx-20 max-w-7xl">
           <h2 className="text-white text-4xl sm:text-7xl font-bold">
-            I'm a full stack developer
+            I'm a full stack Software Engineer
           </h2>
           <p className="text-gray-500 max-w-md my-5">
-            I'm a full stack developer with a B.S. in Computer Science from
-            Purdue University. Concentrating in software engineering, I'm
+            I'm a full stack software enginer with a B.S. in Computer Science
+            from Purdue University. Concentrating in software engineering, I'm
             passionate about creating innovative solutions and finding more
             opportunities for making meaningful contributions to existing and
             new codebases.
