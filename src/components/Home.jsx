@@ -15,11 +15,11 @@ const Home = () => {
             I'm a full stack Software Engineer
           </h2>
           <p className="text-gray-500 max-w-md my-5">
-            I'm a full stack software enginer with a B.S. in Computer Science
-            from Purdue University. Concentrating in software engineering, I'm
-            passionate about creating innovative solutions and finding more
-            opportunities for making meaningful contributions to existing and
-            new codebases.
+            I'm Jason, a full stack software enginer with a B.S. in Computer
+            Science from Purdue University. Concentrating in software
+            engineering, I'm passionate about creating innovative solutions and
+            finding more opportunities for making meaningful contributions to
+            existing and new codebases.
           </p>
           <div>
             <Link
